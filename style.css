@@ -94,7 +94,7 @@ ul{
     
 }
 .paragraph img{
-    width: 50px;
+    width: 3.125rem;
     padding-block: 1.5rem;
 }
 .paragraph .h1 {
@@ -111,32 +111,32 @@ ul{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-column: 1 / span 2;
-    column-gap: 10px;
-    width: 1130px;
-    height: 600px;
+    column-gap: 0.625rem;
+    width: 70.652rem;
+    height: 37.5rem;
     /* background-color: whitesmoke; */
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     
 
 }
 .boxs img{
-    width: 120px;
-    height: 110px;
-    margin-right: 20px;
+    width: 7.5rem;
+    height: 6.875rem;
+    margin-right: 1.25rem;
 }
 .box{
     display: flex;
-    padding: 20px;
-    margin: 10px;
+    padding: 1.25rem;
+    margin: 0.625rem;
 }
 .box h3{
-    margin-bottom: 7px;
+    margin-bottom: 0.4375rem;
     font-size: 1.5rem;
 }
 
 .box p {
-   margin-bottom: 10px;
+   margin-bottom: 0.625rem;
    color: #636363;
    line-height: 1.6rem;
   
@@ -168,8 +168,8 @@ ul{
     display: flex;
     flex-direction: column;
     display: inline-block;
-    gap: 20px;
-    width: 500px;
+    gap: 1.25rem;
+    width: 31.25rem;
     /* height: 300px; */
     /* background-color: aqua; */
     margin-left: 5rem;
@@ -179,7 +179,7 @@ ul{
 
 }
 .row img{
-    width: 100px;
+    width: 6.25rem;
 }
 .row{
     display: flex;
@@ -211,9 +211,9 @@ ul{
     display: flex;
     flex-direction: column;
     display: inline-block;
-    gap: 20px;
-    width: 800px;
-    height: 300px;
+    gap: 1.25rem;
+    width: 50rem;
+    height: 18.75rem;
     /* background-color: aqua; */
     margin-top: 4rem;
     padding: 4rem;
@@ -261,8 +261,8 @@ ul{
 .flex{
     display: flex;
     display: inline-block;
-    width: 380px;
-    height: 524px;
+    width: 23.75rem;
+    height: 32.75rem;
     /* background-color: aqua; */
     /* margin-inline: 2rem; */
     margin-left: 3rem;
@@ -276,8 +276,8 @@ ul{
     
 }
 .flex img{
-     width: 290px; 
-    height: 220px; 
+     width: 18.125rem; 
+    height: 13.75rem; 
     margin-bottom: 2rem;
 }
 .flex h2{
@@ -286,14 +286,14 @@ ul{
 
 
 .last{
-    height: 500px;
+    height: 31.25rem;
     box-sizing: border-box;
     display: flex;
     margin-top: 5rem;
 }
 .map{
-    width: 700px;
-    height: 600px;
+    width: 43.75rem;
+    height: 37.5rem;
     margin-top: 7rem;
     margin-left: 1rem;
     display: inline-block;
@@ -305,8 +305,8 @@ ul{
     display: flex;
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1200)center/cover no-repeat;
-    width: 700px;
-    height: 600px;
+    width: 43.75rem;
+    height: 37.5rem;
     background-color: aqua;
     margin-top: 7rem;
     display: inline-block;
@@ -318,36 +318,36 @@ ul{
 }
 .form1{
     display: flex;
-    width: 550px;
-    height: 450px;
+    width: 34.375rem;
+    height: 28.125rem;
     background-color: aliceblue;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     margin-block: 7rem;
     margin-inline: 4rem;
     
 }
 #name{
-    width: 220px;
-    padding: 10px;
+    width: 13.75rem;
+    padding: 0.625rem;
     /* margin-top: 20px; */
-    margin-block: 20px  ;
-    margin-inline: 20px;
+    margin-block: 1.25rem  ;
+    margin-inline: 1.25rem;
     
 }
 .subject{
-    width: 480px;
-    padding: 10px;
-    margin: 20px;
+    width: 30rem;
+    padding: 0.625rem;
+    margin: 1.25rem;
     
 }
 textarea{
-    width: 480px;
-    padding: 20px;
-    margin-block: 10px;
-    margin-inline: 20px;
+    width: 30rem;
+    padding: 1.25rem;
+    margin-block: 0.625rem;
+    margin-inline: 1.25rem;
 }
 .form1 .btn{
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 
@@ -358,7 +358,9 @@ textarea{
 
 
 @media (max-width: 768px) {
-    
+    .container img{
+        width: 100%;
+    }
     .menu{
        display: none;
      
